@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_request_check_status"
+        android:icon="@drawable/ic_thumbs_up_down_white_24dp"
+        android:title="Статус проверки ЧО"
+        app:showAsAction="always" />
+</menu>

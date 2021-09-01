@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/tvItemRemontListNum"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:drawablePadding="5dp"
+        android:text="Клиент"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvRemontListDefectAcceptInfo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvRemontListDefectAcceptInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="10"
+        android:textColor="@color/green_600"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvItemRemontListDefectNum"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvItemRemontListDefectNum"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="4dp"
+        android:text="10"
+        android:textColor="@color/red_600"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvRemontListOptions"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvRemontListOptions"
+        android:layout_width="30dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="&#8942;"
+        android:textAppearance="?android:textAppearanceLarge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvItemRenovationErrorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Клиент"
+        android:textAlignment="textEnd"
+        android:textColor="@color/Red"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemRenovationLastChange" />
+
+    <TextView
+        android:id="@+id/tvItemRemontListAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_home_black_24dp"
+        android:drawablePadding="5dp"
+        android:paddingTop="5dp"
+        android:text="Адрес"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemRemontListNum" />
+
+    <TextView
+        android:id="@+id/tvItemRemontListProrab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_contact_phone_24"
+        android:drawablePadding="5dp"
+        android:paddingTop="5dp"
+        android:text="Внутренний мастер"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemRemontListAddress" />
+
+    <TextView
+        android:id="@+id/tvItemRemontListResidenceAcceptDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_business_center_black_24dp"
+        android:drawablePadding="5dp"
+        android:paddingTop="5dp"
+        android:text="Подрядчик"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemRemontListProrab" />
+
+    <TextView
+        android:id="@+id/tvItemRemontListOkkName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_business_center_black_24dp"
+        android:drawablePadding="5dp"
+        android:paddingTop="5dp"
+        android:text="Менеджер"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemRemontListResidenceAcceptDate" />
+
+    <TextView
+        android:id="@+id/tvItemRemontListStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_info_outline_black_24dp"
+        android:drawablePadding="5dp"
+        android:paddingTop="5dp"
+        android:text="Статус: дата"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemRemontListOkkName" />
+
+    <TextView
+        android:id="@+id/tvItemRenovationCurrentStage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_playlist_add_check_black_24dp"
+        android:drawablePadding="5dp"
+        android:paddingTop="5dp"
+        android:text="Текущий этап"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemRemontListStatus" />
+
+    <TextView
+        android:id="@+id/tvItemRenovationLastChange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_supervisor_account_black_24dp"
+        android:drawablePadding="5dp"
+        android:paddingTop="5dp"
+        android:text="ФИО последние изменения"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemRenovationCurrentStage" />
+
+
+
+    <TextView
+        android:id="@+id/tvItemRemontListDaysAfterPhotoReport"
+        android:layout_width="0dp"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:linksClickable="true"
+        android:drawableStart="@drawable/ic_baseline_update_24"
+        android:textColor="@color/green_400"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemRenovationLastChange" />
+
+    <TextView
+        android:id="@+id/tvItemRemontListConstructorLink"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="Конструктор"
+        android:autoLink="all"
+        android:linksClickable="true"
+        android:textColor="@color/blue_800"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemRemontListDaysAfterPhotoReport" />
+
+
+    <Button
+        android:id="@+id/btnItemRemontListRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Рейтинг"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemRemontListDaysAfterPhotoReport" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

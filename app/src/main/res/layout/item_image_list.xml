@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/ivItemImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/ivItemPhotoDate"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:text="10.10.2001 10:10:10"
+        android:textSize="8dp" />
+
+</LinearLayout>

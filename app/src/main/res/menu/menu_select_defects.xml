@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_list_defect_delete"
+        android:icon="@drawable/ic_delete_white_24dp"
+        android:title="Удалить"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_list_defect_accept"
+        android:icon="@drawable/ic_check_circle_green_24dp"
+        android:title="Принять дефекты"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_list_defect_combine"
+        android:icon="@drawable/ic_link_white_24dp"
+        android:title="Объединить"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_list_defect_share"
+        android:icon="@drawable/ic_share_white_24dp"
+        android:title="Поделиться"
+        app:showAsAction="never" />
+</menu>

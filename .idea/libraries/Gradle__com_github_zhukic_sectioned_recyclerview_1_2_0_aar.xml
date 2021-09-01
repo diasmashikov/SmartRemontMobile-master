@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.zhukic:sectioned-recyclerview:1.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93ff000e6d2b0ce573eadeca2e79c113/jetified-sectioned-recyclerview-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93ff000e6d2b0ce573eadeca2e79c113/jetified-sectioned-recyclerview-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93ff000e6d2b0ce573eadeca2e79c113/jetified-sectioned-recyclerview-1.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/094c5a78bb2d1d7eb2990d0c43719d13/jetified-sectioned-recyclerview-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/094c5a78bb2d1d7eb2990d0c43719d13/jetified-sectioned-recyclerview-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/094c5a78bb2d1d7eb2990d0c43719d13/jetified-sectioned-recyclerview-1.2.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.zhukic/sectioned-recyclerview/1.2.0/c2336d9d0cb0c613a3bd713124695f2f3539c9d4/sectioned-recyclerview-1.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.zhukic/sectioned-recyclerview/1.2.0/eeb40af457b055dae4a71538f42432af8fa4841a/sectioned-recyclerview-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

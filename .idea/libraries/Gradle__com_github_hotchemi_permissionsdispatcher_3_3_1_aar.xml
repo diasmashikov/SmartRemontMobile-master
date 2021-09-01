@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.hotchemi:permissionsdispatcher:3.3.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/278d6cdc737008ae54f78c69d1ef4b27/jetified-permissionsdispatcher-3.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/278d6cdc737008ae54f78c69d1ef4b27/jetified-permissionsdispatcher-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/278d6cdc737008ae54f78c69d1ef4b27/jetified-permissionsdispatcher-3.3.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b686ca436d388c0e029fdfcc99e65e00/jetified-permissionsdispatcher-3.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b686ca436d388c0e029fdfcc99e65e00/jetified-permissionsdispatcher-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b686ca436d388c0e029fdfcc99e65e00/jetified-permissionsdispatcher-3.3.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.hotchemi/permissionsdispatcher/3.3.1/4ceccb9ef60a85e0b451260ea0e199c399f19e3e/permissionsdispatcher-3.3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.hotchemi/permissionsdispatcher/3.3.1/eef7d84e1b501514e24e5d824b95ac514c6cfc03/permissionsdispatcher-3.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="capture_button_size">64dp</dimen>
+    <dimen name="capture_button_margin">64dp</dimen>
+    <dimen name="watermark_text_size">8.5sp</dimen>
+</resources>

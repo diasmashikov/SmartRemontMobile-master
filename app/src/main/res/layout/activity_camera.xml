@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnCameraCapture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Снять фото" />
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/ivCameraImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPhotoList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Статус ремонта"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_margin="10dp"
+            android:id="@+id/rgRemontStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbFilterRemontStatusAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Все" />
+
+            <RadioButton
+                android:id="@+id/rbFilterRemontStatusStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Начат" />
+
+            <RadioButton
+                android:id="@+id/rbFilterRemontStatusFinish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Завершен" />
+
+            <RadioButton
+                android:id="@+id/rbFilterRemontStatusWarranty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Гарантия" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Этап ремонта"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_margin="10dp"
+            android:id="@+id/rgStage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbFilterStageStatusAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Все" />
+
+            <RadioButton
+                android:visibility="gone"
+                android:id="@+id/rbFilterStageStatusWithoutStage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Нет этапа" />
+
+            <RadioButton
+                android:visibility="gone"
+                android:id="@+id/rbFilterStageStatusChernovayaOtdelka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Черновая отделка" />
+
+            <RadioButton
+                android:visibility="gone"
+                android:id="@+id/rbFilterStageStatusRemontProject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Проект ремонта" />
+
+            <RadioButton
+                android:id="@+id/rbFilterStageStatusElectricityBath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Электричество, санузел" />
+
+            <RadioButton
+                android:id="@+id/rbFilterStageStatusWallsFloor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Стены, потолки, пол" />
+
+            <RadioButton
+                android:id="@+id/rbFilterStageStatusLaminatOboi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ламинат, обои, плинтус" />
+
+            <RadioButton
+                android:visibility="gone"
+                android:id="@+id/rbFilterStageStatusClientAccept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сдача клиенту" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Статус этапа"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgStageStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <RadioButton
+                android:id="@+id/rbStageStatusAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Все" />
+
+            <RadioButton
+                android:id="@+id/rbStageStatusNewStage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Новый этап" />
+
+            <RadioButton
+                android:id="@+id/rbStageStatusStageReadyAccept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Готов к сдаче этапа" />
+
+            <RadioButton
+                android:id="@+id/rbStageStatusStageProblem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Имеются замечания" />
+
+            <RadioButton
+                android:id="@+id/rbStageStatusStageProblemFixed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Готов к сдаче замечаний" />
+
+            <RadioButton
+                android:id="@+id/rbStageStatusStageFinished"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Этап завершен" />
+
+            <RadioButton
+                android:id="@+id/rbStageStatusStageProblemAndFixAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Готов к сдаче этапа / Готов к сдаче замечаний" />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Статус ОКК"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_margin="10dp"
+            android:id="@+id/rgOkkStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbFilterOkkStatusAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Все" />
+
+            <RadioButton
+                android:id="@+id/rbFilterOkkStatusAccept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Принят" />
+
+            <RadioButton
+                android:id="@+id/rbFilterOkkStatusNotAccepted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Не принят" />
+
+            <RadioButton
+                android:id="@+id/rbFilterOkkStatusCanceled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Отказан" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+</ScrollView>

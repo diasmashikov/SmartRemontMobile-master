@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_request_get_data"
+        android:title="Получить данные"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_request_send_data"
+        android:title="Отправить данные"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_request_filter"
+        android:title="Фильтр"
+        android:icon="@drawable/ic_baseline_filter_alt_24"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_defect_video"
+        android:icon="@drawable/ic_videocam_white_24dp"
+        android:title="Видео"
+        android:visible="false"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/menu_defect_attach_file"
+        android:icon="@drawable/ic_send_blue_24dp"
+        android:title="Добавить из галереи"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_defect_send_data"
+        android:icon="@drawable/ic_send_blue_24dp"
+        android:title="Отправка данных"
+        app:showAsAction="never" />
+</menu>

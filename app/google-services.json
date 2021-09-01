@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "1040434332418",
+    "firebase_url": "https://okk-mobile.firebaseio.com",
+    "project_id": "okk-mobile",
+    "storage_bucket": "okk-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040434332418:android:fd8bc8287d9e8cc4",
+        "android_client_info": {
+          "package_name": "kz.cheesenology.smartremontmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040434332418-5b9939iqen8j3229e901g2qpforcckd2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kz.cheesenology.smartremontmobile",
+            "certificate_hash": "8bcc4b17caf2f3b5c66bb34aa64835075133aa69"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQCnG0Evf9KwPU8EqXsnxenEXxVFGrgw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040434332418-abk0637vsjr230a7ho08s58sa0mgkm45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

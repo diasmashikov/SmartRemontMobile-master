@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_stage_refresh_date"
+        android:icon="@drawable/ic_sync_white_24dp"
+        android:title="Фильтр"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_stage_history"
+        android:icon="@drawable/ic_history_white_24dp"
+        android:title="История"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_stage_defects"
+        android:icon="@drawable/ic_photo_camera_white_24dp"
+        android:title="Фильтр"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_stage_remont_chat"
+        android:icon="@drawable/ic_chat_black_24dp"
+        android:title="Чат"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_stage_change_status"
+        android:icon="@drawable/ic_thumbs_up_down_white_24dp"
+        android:title="Статус этапа"
+        app:showAsAction="always" />
+</menu>
